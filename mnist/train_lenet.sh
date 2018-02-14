@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
+# export PATH=/home/farland/caffe/build/tools:$PATH
+
 set -e
 
-./build/tools/caffe train --solver=examples/mnist/lenet_solver.prototxt $@
+caffe train --solver=lenet_solver.prototxt --snapshot=lenet_train_farland__iter_3434.solverstate $@
