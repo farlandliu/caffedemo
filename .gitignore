@@ -7,8 +7,6 @@ __pycache__/
 *.so
 *DS_Store
 *._.DS_Store
-*caffemodel*
-*solverstate*
 
 # Distribution / packaging
 .Python
