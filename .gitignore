@@ -3,10 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 *lmdb
+._*
+
 # C extensions
 *.so
+#Mac os temp
 *DS_Store
 *._.DS_Store
+
+# data temp files
+data/temp/
 
 # Distribution / packaging
 .Python
